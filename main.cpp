@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    2
+    cout<<"size";
     int n,key;
     bool flag=false;
     cin>>n;
