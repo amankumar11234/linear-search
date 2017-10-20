@@ -13,7 +13,7 @@ int main()
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    1
+    cout<<"enter elements to be searched :- ";
     cin>>key;
     for(int i=0;i<n;i++){
         if(key==arr[i]){
@@ -21,6 +21,7 @@ int main()
             flag=true;
         }
     }
+    cout<<"size";
     if(!flag)
         cout<<key<<" not found.";
     return 0;
